@@ -5,3 +5,24 @@ body {
 }
 
 /* -------------------------------- */
+
+.box{
+	margin-top: 50px;
+	padding:30px;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing:inherit;
+	width: 600px;
+	box-sizing: border-box;
+	width: 600px;
+}
+
+.odstavec1, .odstavec2{
+	margin-top: 20px;
+	margin-bottom: 0px;	
+}
+
+.nadpis{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
