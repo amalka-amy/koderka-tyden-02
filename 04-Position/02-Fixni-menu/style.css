@@ -15,7 +15,9 @@ body {
 	viditelná u horního okraje okna prohlížeče
 	a obsah stránky skroloval pod ní
 	*/
-
+	position: fixed;
+	top:0px;
+	width: 100%;
 }
 
 .paticka {
@@ -24,8 +26,9 @@ body {
 	viditelná u dolního okraje okna prohlížeče
 	a obsah stránky skroloval pod ní
 	*/
-
-
+	position:fixed;
+	bottom:0px;
+	width:100%;
 }
 
 .obsah {
@@ -33,12 +36,9 @@ body {
 	přidej CSS, aby obsah nahoře a dole na stránce
 	nebyl zakrytý hlavičkou a patičkou
 	*/
-
-
+	padding-top:80px;
+	padding-bottom: 70px;
 }
-
-
-
 
 /* ---------------------------------------- */
 
